@@ -1,13 +1,12 @@
 import '@Styles/global.css';
 
-import { inter, raleway } from '@Constants/fonts';
+import { inter, outfit, raleway } from '@Constants/fonts';
+import { DEFAULT_METADATA } from '@Constants/metadata';
 import MainLayout from '@Layout/MainLayout';
 import { uiHelper } from '@Utils/uiHelper';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import type React from 'react';
-
-import { DEFAULT_METADATA } from '@Constants/metadata';
 
 export const metadata: Metadata = DEFAULT_METADATA;
 
@@ -29,7 +28,7 @@ export default function RootLayout({
           <Script src="https://unpkg.com/react-scan/dist/auto.global.js" />
         )}
       </head>
-      <body className={`${inter.variable} ${raleway.variable}`}>
+      <body className={`${inter.variable} ${raleway.variable} ${outfit.variable}`}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

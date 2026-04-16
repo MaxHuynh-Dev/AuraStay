@@ -32,6 +32,7 @@
       "@Constants/*": ["./src/constants/*"],
       "@Images/*": ["./public/images/*"],
       "@Public/*": ["./public/*"],
+      "@Lib/*": ["./src/lib/*"],
       "@Utils/*": ["./src/utils/*"],
       "@Motions/*": ["./src/motions/*"],
       "@Store/*": ["./src/store/*"],

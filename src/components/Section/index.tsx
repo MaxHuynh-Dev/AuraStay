@@ -1,7 +1,7 @@
-import { cn } from '@/lib/utils';
 import { Container } from '@Components/Container';
 import type React from 'react';
 import type { PropsWithChildren } from 'react';
+import { cn } from '@/lib/utils';
 
 type Props = PropsWithChildren & {
   id?: string;

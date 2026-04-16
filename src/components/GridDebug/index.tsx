@@ -42,7 +42,7 @@ export default function GridDebug(): React.ReactElement {
 
   return (
     <Activity mode={isGrid ? 'visible' : 'hidden'} name="Grid Debug">
-      <div className="-translate-x-1/2 pointer-events-none fixed top-0 left-1/2 z-[99999999999] h-full w-full">
+      <div className="pointer-events-none fixed top-0 left-1/2 z-[99999999999] h-full w-full -translate-x-1/2">
         <Container>
           <GridContainer>
             {Array.from({ length: 12 }).map((_, index) => (
