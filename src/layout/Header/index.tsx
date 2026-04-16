@@ -1,5 +1,7 @@
 'use client';
+
 import { cn } from '@Lib/utils';
+import { Button } from '@heroui/react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -56,12 +58,7 @@ function Header(): React.ReactElement {
 
       {/* Action Button */}
       <div className="flex items-center gap-4">
-        <button
-          type="button"
-          className="rounded-full bg-aura-aquamarine px-6 py-2.5 font-semibold text-white shadow-lg transition-all duration-300 hover:bg-aura-aquamarine-dark hover:shadow-aura-aquamarine/40 active:scale-95"
-        >
-          Login / Sign Up
-        </button>
+        <Button className="font-semibold shadow-lg">Login / Sign Up</Button>
       </div>
     </nav>
   );

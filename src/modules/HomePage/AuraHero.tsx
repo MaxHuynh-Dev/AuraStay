@@ -1,5 +1,6 @@
 'use client';
 
+import { Button } from '@heroui/react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -48,22 +49,9 @@ export const AuraHero = () => {
             transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="mt-12 flex flex-col items-center justify-center gap-6 sm:flex-row"
           >
-            <button
-              type="button"
-              className="group relative overflow-hidden rounded-full bg-aura-aquamarine px-10 py-5 font-bold text-lg text-white shadow-[0_0_20px_rgba(79,209,197,0.4)] transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(79,209,197,0.6)] active:scale-95"
-            >
-              <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
-                Explore Our Spaces
-              </span>
-              <div className="absolute inset-0 translate-x-[-100%] bg-white/20 transition-transform duration-700 ease-in-out group-hover:translate-x-[100%]" />
-            </button>
+            <Button>Explore Our Spaces</Button>
 
-            <button
-              type="button"
-              className="rounded-full border border-white/30 bg-white/10 px-10 py-5 font-bold text-lg text-white backdrop-blur-md transition-all duration-300 hover:border-white/50 hover:bg-white/20"
-            >
-              Watch Experience
-            </button>
+            <Button>Watch Experience</Button>
           </motion.div>
         </motion.div>
       </div>
