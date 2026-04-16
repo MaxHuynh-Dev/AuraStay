@@ -67,26 +67,6 @@ export const AuraHero = () => {
           </motion.div>
         </motion.div>
       </div>
-
-      {/* Decorative Wave Bottom */}
-      <div className="pointer-events-none absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-        <svg
-          className="relative block h-[100px] w-[calc(100%+1.3px)]"
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V46.35C50.67,54.16,123.39,59,192.69,58.86A440.39,440.39,0,0,0,321.39,56.44Z"
-            className="fill-aura-cream opacity-100"
-          />
-        </svg>
-      </div>
-
-      {/* Subtle Golden Glows */}
-      <div className="pointer-events-none absolute -top-1/4 -right-1/4 h-[500px] w-[500px] animate-pulse-glow rounded-full bg-aura-gold/10 blur-[120px]" />
-      <div className="pointer-events-none absolute bottom-1/4 -left-1/4 h-[400px] w-[400px] animate-pulse-glow rounded-full bg-aura-aquamarine/10 blur-[100px] [animation-delay:2s]" />
     </section>
   );
 };
