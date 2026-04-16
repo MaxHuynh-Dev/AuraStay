@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Bed, Map, Sparkles, Utensils } from 'lucide-react';
+import { Bed, Map as MapIcon, Sparkles, Utensils } from 'lucide-react';
 import Image from 'next/image';
 
 const SERVICES = [
@@ -33,7 +33,7 @@ const SERVICES = [
     title: 'Activities',
     description: 'Discover the hidden gems of the coast with our curated adventure experiences.',
     image: '/images/aurastay/activities.png',
-    icon: <Map className="h-6 w-6" />,
+    icon: <MapIcon className="h-6 w-6" />,
     color: 'bg-aura-aquamarine-dark'
   }
 ];
