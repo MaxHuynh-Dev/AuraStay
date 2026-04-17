@@ -9,9 +9,6 @@ function Footer(): React.ReactElement {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="mb-6 flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-aura-aquamarine">
-                <span className="font-bold text-white">A</span>
-              </div>
               <span className="font-bold font-outfit text-2xl tracking-tight">AuraStay</span>
             </Link>
             <p className="font-light text-white/60 leading-relaxed">

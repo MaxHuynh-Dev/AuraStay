@@ -1,4 +1,4 @@
-import '@Styles/global.css';
+import '@Styles/app.css';
 
 import { inter, outfit, raleway } from '@Constants/fonts';
 import { DEFAULT_METADATA } from '@Constants/metadata';

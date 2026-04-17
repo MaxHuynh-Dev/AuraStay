@@ -34,9 +34,6 @@ function Header(): React.ReactElement {
     >
       {/* Logo */}
       <Link href="/" className="group flex items-center gap-2">
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-aura-aquamarine shadow-lg transition-transform duration-300 group-hover:scale-110">
-          <span className="font-bold text-lg text-white">A</span>
-        </div>
         <span className="font-bold font-outfit text-2xl text-white tracking-tight drop-shadow-md">
           Aura<span className="text-aura-aquamarine">Stay</span>
         </span>
