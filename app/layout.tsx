@@ -1,6 +1,6 @@
 import '@Styles/app.css';
 
-import { inter, outfit, raleway } from '@Constants/fonts';
+import { inter } from '@Constants/fonts';
 import { DEFAULT_METADATA } from '@Constants/metadata';
 import MainLayout from '@Layout/MainLayout';
 import { uiHelper } from '@Utils/uiHelper';
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>): React.ReactElement {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <script
           // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for scroll restoration control
@@ -28,7 +28,7 @@ export default function RootLayout({
           <Script src="https://unpkg.com/react-scan/dist/auto.global.js" />
         )}
       </head>
-      <body className={`${inter.variable} ${raleway.variable} ${outfit.variable}`}>
+      <body className={`${inter.variable}`}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

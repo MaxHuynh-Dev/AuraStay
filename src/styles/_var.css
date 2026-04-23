@@ -48,22 +48,20 @@
   --color-aura-border: rgba(79, 209, 197, 0.2);
 
   /* Custom animations */
-  --animate-fade-in: fade-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  /* --animate-fade-in: fade-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-slide-up: slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-slide-right: slide-right 1s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-float: float 8s ease-in-out infinite;
   --animate-marquee: marquee 40s linear infinite;
   --animate-marquee-reverse: marquee-reverse 40s linear infinite;
-  --animate-pulse-glow: pulse-glow 4s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 4s ease-in-out infinite; */
 
   /* Font families */
   --font-inter: "Inter", sans-serif;
-  --font-raleway: "Raleway", sans-serif;
-  --font-outfit: "Outfit", sans-serif;
 }
 
 :root {
-  /* --radius: 1rem;
+  --radius: 1rem;
   --background: #fdfbf7;
   --foreground: #1a202c;
   --card: #ffffff;
@@ -94,11 +92,11 @@
   --sidebar-accent: #edf2f7;
   --sidebar-accent-foreground: #1a202c;
   --sidebar-border: #e2e8f0;
-  --sidebar-ring: #4fd1c5; */
+  --sidebar-ring: #4fd1c5;
 }
-/* 
+
 .dark {
-  --background: #0f172a;
+  /* --background: #0f172a;
   --foreground: #f8fafc;
   --card: #1e293b;
   --card-foreground: #f8fafc;
@@ -128,5 +126,5 @@
   --sidebar-accent: #334155;
   --sidebar-accent-foreground: #f8fafc;
   --sidebar-border: rgba(79, 209, 197, 0.2);
-  --sidebar-ring: #4fd1c5;
-} */
+  --sidebar-ring: #4fd1c5; */
+}
